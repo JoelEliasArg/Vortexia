@@ -1,0 +1,282 @@
+<!-- 
+    © 2026 Vortexia. Todos los derechos reservados.
+    aviso de copyright. Le puse esto para que se vea profesional.
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vortexia">
+    <title>Vortexia | Calzado Premium y Deportivo</title>
+    <meta name="description"
+        content="Descubre la colección más exclusiva de zapatos deportivos y casuales en Vortexia. Estilo, confort y rendimiento en cada paso.">
+    <link rel="icon" href="img/LogoVortexia.jpg" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuentes de Google: Aquí importo las tipografías para que se vea bonito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome: Esta librería la uso para los íconos (el carrito, las flechas, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Encabezado / Barra de Navegación: Esta es la parte de arriba con el logo y el menú -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">VORTEXIA<span class="dot">.</span></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#products">Colección</a></li>
+                    <li><a href="#features">Beneficios</a></li>
+                    <li><a href="#testimonials">Reseñas</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#newsletter" class="btn btn-primary">Suscríbete</a>
+                <button class="mobile-menu-btn" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Hero: Lo primero que ve el usuario, debe impactar -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Domina el Camino con <span class="highlight">Vortexia</span></h1>
+            <p class="hero-subtitle">Calzado diseñado para quienes no se detienen. Fusión perfecta entre tecnología,
+                confort y estilo urbano.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Ver Colección</a>
+                <a href="#features" class="btn btn-outline">Saber Más</a>
+            </div>
+        </div>
+        <!-- Imagen Principal: Aquí iría una foto chula o un gráfico del zapato -->
+        <div class="hero-visual">
+            <div class="visual-placeholder">Imagen Hero</div>
+        </div>
+    </section>
+
+    <!-- Productos Destacados: Aquí muestro lo que quiero vender -->
+    <section id="products" class="products section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Favoritos</h2>
+            <p class="section-desc">Descubre los modelos que están marcando tendencia.</p>
+
+            <div class="product-grid">
+                <!-- Producto 1: Un zapato de ejemplo -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="img-placeholder">Zapato 1</div>
+                        <span class="badge">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Vortex Runner X1</h3>
+                        <p class="price">$120.00</p>
+                        <button class="btn btn-sm">Añadir</button>
+                    </div>
+                </article>
+
+                <!-- Producto 2: Otro zapato más -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="img-placeholder">Zapato 2</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Urban Glide Pro</h3>
+                        <p class="price">$95.00</p>
+                        <button class="btn btn-sm">Añadir</button>
+                    </div>
+                </article>
+
+                <!-- Producto 3: Este está en oferta para llamar la atención -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="img-placeholder">Zapato 3</div>
+                        <span class="badge sale">Oferta</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sky Walker Elite</h3>
+                        <p class="price"><span class="old-price">$150.00</span> $110.00</p>
+                        <button class="btn btn-sm">Añadir</button>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="products" class="products section">
+        <div class="container">
+            <div class="product-grid">
+                <!-- Producto 4: Un zapato más para rellenar la grilla -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="img-placeholder">Zapato 4</div>
+                        <span class="badge">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Vortex Runner X1</h3>
+                        <p class="price">$120.00</p>
+                        <button class="btn btn-sm">Añadir</button>
+                    </div>
+                </article>
+
+                <!-- Producto 5: Otro modelo que se vende bien -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="img-placeholder">Zapato 5</div>
+                        <span class="badge">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Urban Glide Pro</h3>
+                        <p class="price">$95.00</p>
+                        <button class="btn btn-sm">Añadir</button>
+                    </div>
+                </article>
+
+                <!-- Producto 6: El último de la lista -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="img-placeholder">Zapato 6</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sky Walker Elite</h3>
+                        <p class="price"><span class="old-price">$150.00</span> $110.00</p>
+                        <button class="btn btn-sm">Añadir</button>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Características / Beneficios: Por qué deberían comprarnos -->
+    <section id="features" class="features section">
+        <div class="container">
+            <h2 class="section-title">Por Qué Elegir Vortexia</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-wind icon"></i>
+                    <h3>Ligereza Extrema</h3>
+                    <p>Materiales ultraligeros que reducen la fatiga y mejoran tu rendimiento.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shoe-prints icon"></i>
+                    <h3>Agarre Total</h3>
+                    <p>Suelas antideslizantes diseñadas para cualquier tipo de superficie urbana.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt icon"></i>
+                    <h3>Durabilidad</h3>
+                    <p>Construcción robusta resistente al desgaste diario y al clima.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-recycle icon"></i>
+                    <h3>Sostenible</h3>
+                    <p>Comprometidos con el planeta, usamos materiales reciclados en cada par.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios: Opiniones de clientes para dar confianza (social proof) -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="review">"Increíble calidad. Los uso para correr y para salir, son súper versátiles.
+                        Totalmente recomendados."</p>
+                    <div class="user-info">
+                        <div class="avatar-placeholder">MG</div>
+                        <div>
+                            <h4>Martín Gómez</h4>
+                            <span>Runner Amateur</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="review">"El diseño es espectacular. Me han preguntado varias veces dónde los compré.
+                        ¡Vortexia es top!"</p>
+                    <div class="user-info">
+                        <div class="avatar-placeholder">LS</div>
+                        <div>
+                            <h4>Laura Sánchez</h4>
+                            <span>Diseñadora</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boletín: Para capturar correos de gente interesada -->
+    <section id="newsletter" class="newsletter section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Únete al Movimiento</h2>
+                <p>Suscríbete para recibir ofertas exclusivas, lanzamientos y consejos de estilo.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit" class="btn btn-primary">Suscribirse</button>
+                    </div>
+                    <p class="form-message" id="formMessage"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página: Enlaces importantes, redes sociales y contacto -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">VORTEXIA<span class="dot">.</span></a>
+                <p>Redefiniendo el calzado urbano para la generación imparable.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explorar</h4>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#products">Colección</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Ayuda</h4>
+                <ul>
+                    <li><a href="#">Envíos y Devoluciones</a></li>
+                    <li><a href="#">Guía de Tallas</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Vortexia. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
